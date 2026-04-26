@@ -7,13 +7,17 @@ _Extreme Dodge_ is a fun and challenging game where you dodge incoming obstacles
 
 This version shares identical in-game content with [Extreme Dodge (VB.NET & Python Version)](https://github.com/Pac-Dessert1436/Extreme-Dodge-VB-Python). It serves as my personal attempt to rewrite the game using Java and HTML5, so further details about the game itself will not be repeated here.
 
+> **Note**: This HTML5 version is now **available on GitHub Pages** (see the next section).
+
 ## How to Play
 1. Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/Pac-Dessert1436/javaminigame.extremedodge.git
 cd javaminigame.extremedodge
 ```
-2. **HTML5 Version**: No compilation required. Simply open `ExtremeDodge.html` in your web browser.
+2. **HTML5 Version**: 
+   - **GitHub Pages**: Play directly in your browser at this link: https://pac-dessert1436.github.io/javaminigame.extremedodge/
+   - **Local**: Simply open `index.html` in your web browser (no compilation required).
 3. **Java Swing Version**: Compile the source code and run the game with the following commands:
 ```bash
 javac -sourcepath src -d bin src/*.java
